@@ -28,8 +28,8 @@ function Sidebar() {
   );
   return (
     <>
-      <aside className="w-56 sticky  ">
-        <div className="mx-4">
+      <aside className="sticky top-0 w-64 h-screen ">
+        <div className="mx-4 ">
           <div className="flex justify-center">
             <div className="p-3 w-full rounded-md bg-white text-sm">
               <select className="w-full outline-none ">
@@ -42,7 +42,7 @@ function Sidebar() {
 
           {Object.entries(sections).map(([section, items]) => (
             <>
-              <div key={section} className="my-6 mx-2 ">
+              <div key={section} className="my-4 mx-2 ">
                 <h2 className="text-xs font-medium text-gray-500 mb-2 uppercase">
                   {section}
                   <span className="float-right text-xs">All</span>
@@ -53,7 +53,7 @@ function Sidebar() {
                   ))}
                 </ul>
               </div>
-              <hr className="h-[2px] bg-slate-300 my-2" />
+              <hr className="h-[2px] bg-slate-300 my-1" />
             </>
           ))}
         </div>

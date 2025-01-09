@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <>
-      <aside className="w-[260px] flex flex-col justify-between ">
+      <aside className="w-[260px] flex flex-col justify-between sticky top-0 h-[100vh]  ">
         <div className=" ">
           <div className="bg-white p-4 rounded-lg border border-gray-200 me-4">
             <div className="bg-gradient-to-b flex flex-col items-center from-pink-300 to-pink-100 rounded-t-lg p-4">
